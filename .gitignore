@@ -1,0 +1,17 @@
+# CRITICAL: EXCLUDE SECRETS AND CONFIGS
+.env
+.ipynb_checkpoints
+
+# EXCLUDE PYTHON ENVIRONMENT AND CACHE
+venv/
+env/
+__pycache__/
+*.pyc
+
+# EXCLUDE LARGE DATA FILES (They belong in the database, not Git)
+*.csv
+*.tar
+*.bak
+
+# EXCLUDE LOGS AND OTHER TEMP FILES
+*.log
