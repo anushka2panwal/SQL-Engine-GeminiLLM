@@ -1,0 +1,7 @@
+google-genai
+sqlalchemy
+psycopg2-binary
+pandas
+jupyter
+python-dotenv
+tabulate
